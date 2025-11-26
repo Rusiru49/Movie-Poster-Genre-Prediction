@@ -97,3 +97,23 @@ Confusion Matrix
 Precision/Recall/F1
 
 Per-genre performance
+
+📝 Future Improvements
+
+Multi-label genre classification (some movies have multiple genres)
+
+Use EfficientNet for higher accuracy
+
+Deploy as a web API (FastAPI)
+
+Build a full recommendation system
+
+🙌 Acknowledgements
+
+Kaggle Movie Posters Dataset
+
+TensorFlow / Keras
+
+ResNet & MobileNet researchers
+
+Streamlit for UI deployment
