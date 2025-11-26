@@ -44,4 +44,31 @@ Model training
 
 Model evaluation
 
+🗂️ Project Structure
+MoviePosterGenrePrediction/
+│
+├── data/
+│   ├── train/             # Training images (organized in subfolders by genre)
+│   ├── val/               # Validation images
+│   └── test/              # Test images
+│
+├── notebooks/             # Jupyter notebooks for EDA and experiments
+│   └── exploration.ipynb
+│
+├── src/
+│   ├── data_loader.py     # Data preprocessing & augmentation
+│   ├── model.py           # CNN model architecture
+│   ├── train.py           # Training pipeline
+│   ├── evaluate.py        # Evaluation metrics and confusion matrix
+│   ├── predict.py         # Prediction on a single poster
+│   └── utils.py           # Helper functions (plots, labels, etc.)
+│
+├── saved_models/          # Trained model weights
+│   └── best_model.h5
+│
+├── requirements.txt       # Python dependencies
+├── README.md
+└── main.py                # Entry point to run training + evaluation
+
+
 Ready-to-run Streamlit UI (optional)
