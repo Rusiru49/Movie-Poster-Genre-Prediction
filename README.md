@@ -72,3 +72,15 @@ MoviePosterGenrePrediction/
 
 
 Ready-to-run Streamlit UI (optional)
+
+📊 Dataset
+
+Total posters: 8,252
+
+Split:
+
+Train: 70% → 5,776 images
+
+Validation: 15% → 1,238 images
+
+Test: 15% → 1,238 images
